@@ -20,13 +20,14 @@ Open **http://localhost:8080** — the dashboard loads immediately.
 
 If this is your first time, click **🚀 Quick Start Wizard** in the sidebar.
 
-![Quick Start Wizard](https://raw.githubusercontent.com/jsoprych/elko-docs/main/assets/elko-project-wizard/04-quick-start-wizard.png)
+The wizard walks you through **4 color-coded tabs**, left to right. Each tab must be completed before **Next →** activates — a warning appears if you try to skip ahead.
 
-1. **Choose your tech stack** — Go, Node.js/TypeScript, Python, Rust, LAMP, C, C++
-2. **Pick your coding experience** — Zero (beginner), Builder (intermediate), Hero (expert)
-3. **Name your project** — e.g. `my-api`
-4. **Review what's included** — see the directives that will be bundled
-5. Click **Generate** — your `.zip` downloads automatically
+1. **🛠️ Tech Stack** (blue) — pick Go, Node.js/TypeScript, Python, Rust, LAMP, C, C++
+2. **🎓 Experience** (green) — Zero (beginner), Builder (intermediate), Hero (expert)
+3. **📁 Project** (orange) — enter a name, e.g. `my-api`
+4. **⚡ Generate** (purple) — review the bundle, click **⬇ Generate & Download ZIP**
+
+Tabs show **✓** when complete. You can click any tab to jump back and change a selection.
 
 ---
 
