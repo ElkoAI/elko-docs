@@ -32,6 +32,21 @@ Stop briefing your AI agent from a blank page. Pick directives, compose a profil
 
 ## MCP Servers
 
+### [elko-sql-mcp](elko-sql-mcp/README.md) — SQL + Lua + JS as an MCP server
+Port `8092` · 🐳 `ghcr.io/jsoprych/elko-sql-mcp` · CGO-free · Local-first
+
+Turn any SQL schema into MCP tools. Write procedures in SQL, Lua, or JavaScript.
+Built-in observability (logs, metrics, counters), 7 trigger types, step-through debugger (Pro),
+and direct integration with Hermes-agent and OpenClaw.
+
+100+ UDFs · 8 built-in samples · TypeScript SDK · `elko-debug` binary (Pro)
+
+→ [Getting Started](elko-sql-mcp/getting-started.md) · [Procedures](elko-sql-mcp/procedures.md) · [Observability](elko-sql-mcp/observability.md) · [Agent Integration](elko-sql-mcp/agent-integration.md) · [Pro tier](elko-sql-mcp/pro.md)
+
+⚡ **5-minute quickstarts:** [Hermes](elko-sql-mcp/quickstart-hermes.md) · [OpenClaw](elko-sql-mcp/quickstart-openclaw.md)
+
+---
+
 ### [elko-market-mcp](elko-market-mcp/README.md) — Financial Market Data
 Port `8082` · 🐳 [Docker Hub](https://hub.docker.com/r/jsoprych/elko-market-mcp) · `docker pull jsoprych/elko-market-mcp:latest`
 
