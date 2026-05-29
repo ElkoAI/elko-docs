@@ -66,6 +66,17 @@ Polls RSS/Atom feeds continuously. Full-text search. SQL procedures auto-registe
 
 ---
 
+### [elko-fatcat-mcp](elko-fatcat-mcp/README.md) — Smart Money & Insider Tracking
+Port `8083` · 🐳 [Docker Hub](https://hub.docker.com/r/jsoprych/elko-fatcat-mcp) · `docker pull jsoprych/elko-fatcat-mcp:latest`
+
+15 tools tracking where powerful entities move money: SEC 13F filings, Form 4 insider trades, Schedule 13D/G activist stakes, Form 144 sale notices, STOCK Act congressional trades, USAspending federal contracts, Senate LDA lobbying disclosures.
+
+Local SQLite warehouse · Background ingest scheduler · 9 data sources · 20 tables
+
+→ [Getting Started](elko-fatcat-mcp/getting-started.md) · [Ingest](elko-fatcat-mcp/ingest.md) · [Dashboard](elko-fatcat-mcp/dashboard.md) · [API](elko-fatcat-mcp/api.md) · [Docker](elko-fatcat-mcp/docker.md)
+
+---
+
 ## Run Both Together
 
 ```bash
